@@ -1,10 +1,8 @@
-#create a Python bot that will search the dependents of a GitHub repository for a given file, similarily to grep, but for GitHub repositories.
 import requests
 import csv
 import sys
 from bs4 import BeautifulSoup
 
-#create a variable that will hold the URL of the target repo, which will be passed as $1 argument to the script
 repo = sys.argv[1]
 #if repo is not a valid URL, exit the script
 if not repo.startswith('https://github.com/') or repo.startswith('https://www.github.com/'):
@@ -18,7 +16,6 @@ def getdependents(repo):
         r = requests.get(repo + '/network/dependents')
     else:
         r = requests.get(repo)
-    #if the request is successful, parse the HTML
     if r.status_code == 200:
         soup = BeautifulSoup(r.text, 'html.parser')
         #find all the links to the dependent repos
@@ -35,7 +32,6 @@ def getdependents(repo):
         sys.exit(1)
 
 
-#create a function that will search for a file containing the expression passed as $2 argument to the script. The function must support regular expressions
 def searchFile(expression):
     expression = sys.argv[2]
     dependentURLs = []
@@ -51,7 +47,6 @@ def searchFile(expression):
         #for each link, extract the URL and append it to the list
         for link in links:
             files.append(link['href'])
-        #for each file, append the dependenet repo's URL to the list (not the URL of the repo on which they depend, but the URL of the repo that contains the file)
         for file in files:
             dependentURL = file.split('/blob/')[0]
             dependentURLs.append(dependentURL)
@@ -116,7 +111,7 @@ def printCSV(files, repos):
         #write the results to the CSV file
         writer.writerows(results)
     
-#parse the arguments passed to the script, using if/elif statements
+#parse the arguments passed to the script
 if not '-n' or '--name' or '-t' or '--tag' in sys.argv[1:6]:
     #if there is no -n or --name option, search for the expression in all the repos
     dependents = getdependents(repo)
