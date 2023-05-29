@@ -1,4 +1,13 @@
 #!/usr/bin/env python3
+'''
+Copyright 2023 by Marcelina Hołub <mholub@tutanota.com>
+This script is free software; you can redistribute it and/or modify it under the terms of the GNU Affero General Public License as published by the Free Software Foundation; version 3.
+This script is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+You should have received a copy of the GNU Affero General Public License along with this script; if not, see <https://www.gnu.org/licenses/>.
+
+This script adds aliases for uutils executables to fish shell.
+See https://github.com/uutils/coreutils for more information about uutils.
+'''
 
 import asyncio
 import aiofiles
