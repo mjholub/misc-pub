@@ -10,9 +10,9 @@ function apktui
             end
         case Install
             doas apk update
-            apk search | sed -E 's/-[0-9].*$//' | fzf -m | xargs -I {} doas apk add {}
+            apk search | sed -E 's/-[0-9].*$//' | fzf -m --preview 'sh -c "apk info -s {} && apk info -r {}"' | xargs -I {} doas apk add {}
         case Remove
-            apk list --installed | sed -E 's/(.*?)-[0-9].*?/\\1/' | fzf -m | xargs -I {} doas apk del {}
+            apk list --installed | sed -E 's/(.*?)-[0-9].*?/\\1/' | fzf -m --preview 'sh -c "apk info -s {} && apk info -r {}"' | xargs -I {} doas apk del {}
         case Search
             read -p "Enter the package name to search: " pkg
             apk info $pkg
