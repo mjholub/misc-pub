@@ -1,0 +1,199 @@
+body {
+    /*gruvbox dark brown*/
+    background-color: #282828 !important;
+    color: #ebdbb2 !important;
+  .mw-body-header {
+    background-color: #282828 !important;
+    color: #ffffff !important;
+}
+}
+
+.mw-parser-output .sidebar {
+    background: #121921 !important;
+}
+
+.vector-body h3, .vector-body h4 {
+    color: #cc7a00 !important;
+}
+
+.mw-page-title-main {
+    color: #fffefe !important;
+}
+
+mw-body-header {
+    background-color: #282828 !important;
+    color: #ffffff !important;
+}
+
+.rendered_text {
+    background-color: #282828 !important;
+    color: #ebdbb2 !important;
+}
+
+ul[id="tracks"] {
+    background-color: #282828 !important;
+    color: #ebdbb2 !important;
+}
+
+table[class="infobox vevent"] {
+    background-color: #282828 !important;
+    color: #ebdbb2 !important;
+}
+
+
+#tracks > li {
+    background-color: rgba(58, 64, 97, 0.85) !important;
+    color: #fffbb2 !important;
+  }
+
+input[type="search"] {
+    background-color: rgba(232, 225, 180, 0.85) !important;
+    color: #000 !important;
+}
+
+span.tracklist_title {
+    background-color: rgba(58, 64, 97, 0.85) !important;
+    color: #fffbb2 !important;
+  }
+
+div.tracklist_line {
+    background-color: rgba(58, 64, 97, 0.85) !important;
+    color: #fffbb2 !important;
+  }
+
+span.name {
+    background-color: rgba(58, 64, 97, 0.85) !important;
+    color: #fffbb2 !important;
+  }
+
+lists {
+    background-color: #282828 !important;
+    color: #ebdbb2 !important;
+}
+
+.info_hdr {
+    background-color: rgba(58, 64, 97, 0.85) !important;
+    color: #fffbb2 !important;
+}
+
+table.color_bar {
+  border-radius: 8px;
+}
+
+table.film_infox {
+  border-radius: 8px;
+  border: 0px !important;
+}
+
+#content > div.release_page > div:nth-child(6) > div > div.large-4.pull-8.columns.film_left_column > div:nth-child(3) > div.hide-for-small > div.section_addl_info > table.film_infox > tbody > tr > td {
+    background-color: rgba(232, 225, 180, 0.85) !important;
+    color: #000 !important;
+}
+
+div {
+    background-color: #282828 !important;
+    color: #ffffff !important;
+    row {
+        background-color: #282828 !important;
+        color: #ffffff !important;
+    }
+    .mw-body-header {
+    background-color: #282828 !important;
+    color: #ffffff !important;
+}
+}
+
+a {
+    color: #fabd2f !important;
+    btn {
+        background-color: #202020 !important;
+        color: #fabd2f !important;
+    }
+}
+
+li {
+  listitem {
+    background-color: #282828 !important;
+    color: #ffffff !important;
+  }
+}
+
+#repository-container-header > div.d-flex.flex-wrap.flex-justify-end.mb-3.px-3.px-md-4.px-lg-5 > ul > li:nth-child(1) > a {
+    background-color: #282020 !important;
+    color: #fabd2f !important;
+}
+
+#repository-container-header > div.d-flex.flex-wrap.flex-justify-end.mb-3.px-3.px-md-4.px-lg-5 > ul > li:nth-child(2) > a {
+    background-color: #282020 !important;
+    color: #fabd2f !important;
+}
+
+#repository-container-header > div.d-flex.flex-wrap.flex-justify-end.mb-3.px-3.px-md-4.px-lg-5 > ul > li:nth-child(3) > a {
+    background-color: #282020 !important;
+    color: #fabd2f !important;
+}
+
+#repository-container-header > div.d-flex.flex-wrap.flex-justify-end.mb-3.px-3.px-md-4.px-lg-5 > ul > li:nth-child(3) > div {
+    background-color: #282020 !important;
+    color: #fabd2f !important;
+}
+
+#repository-container-header > div.d-flex.flex-wrap.flex-justify-end.mb-3.px-3.px-md-4.px-lg-5 > ul > li:nth-child(3) > div > a {
+    background-color: #282020 !important;
+    color: #fabd2f !important;
+}
+
+#repository-container-header > div.d-flex.flex-wrap.flex-justify-end.mb-3.px-3.px-md-4.px-lg-5 > ul > li:nth-child(3) > div > button {
+    background-color: #202020 !important;
+    color: #fabd2f !important;
+}
+
+#repo-content-pjax-container > div > div > div.Layout.Layout--flowRow-until-md.Layout--sidebarPosition-end.Layout--sidebarPosition-flowRow-end > div.Layout-sidebar > div > div:nth-child(6) > div > ul{
+    background-color: #282828 !important;
+    color: #fabd2f !important;
+}
+
+#repo-content-pjax-container > div > div > div.Layout.Layout--flowRow-until-md.Layout--sidebarPosition-end.Layout--sidebarPosition-flowRow-end > div.Layout-sidebar > div > div:nth-child(6) > div > ul > li:nth-child(1) > a > span.color-fg-default.text-bold.mr-1 {
+    background-color: #282828 !important;
+    color: #fabd2f !important;
+}
+
+#repo-content-pjax-container > div > div > div.Layout.Layout--flowRow-until-md.Layout--sidebarPosition-end.Layout--sidebarPosition-flowRow-end > div.Layout-sidebar > div > div:nth-child(6) > div > ul > li:nth-child(2) > a > span.color-fg-default.text-bold.mr-1 {
+    background-color: #282828 !important;
+    color: #fabd2f !important;
+}
+
+id="responsive-meta-container" {
+    background-color: #282828;
+    color: #ffffff;
+}
+
+Box-mb {
+    background-color: #282828 !important;
+    color: #ffffff !important;
+}
+
+div[aria-label="Issues"] a {
+  color: black;
+}
+
+
+/* emulate the "dracula blood theme" */
+#repo-content-turbo-frame > div > div > div.Box.mt-3.position-relative > div.Box-body.p-0.blob-wrapper.data.type-lua.gist-border-0 > div > table > tbody{
+    background-color: rgba(64, 70, 81, 0.85) !important;
+    #LC19 > span.pl-smi {
+        color: #fff !important;
+    }
+}
+
+#overview {
+  color: #fff !important;
+  .a {
+    color: #fff !important;
+  }
+  .overview-title {
+    color: #fff !important;
+  }
+}
+
+
